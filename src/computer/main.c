@@ -16,6 +16,7 @@
 #include <stdio.h>
 #include <pthread.h>
 
+#include "register.h"
 #include "global.h"
 
 extern void monitor(void);
