@@ -8,11 +8,8 @@
 |
 | Date:  Nov 2017
 *******************************************************************************/
-#ifndef _GLOBALS
-#define _GLOBALS
 
-#include <pthread.h>
-
-extern pthread_mutex_t consoleLock;//To keep consistency when writing to console
-
-#endif
+/*-------------------------------------------------------------------------+
+| Headers of command functions
++--------------------------------------------------------------------------*/ 
+void cmd_exit (int, char** );
